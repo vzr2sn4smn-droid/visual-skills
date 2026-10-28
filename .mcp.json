@@ -1,0 +1,8 @@
+{
+  "mcpServers": {
+    "flora-docs": {
+      "type": "http",
+      "url": "https://docs.flora.ai/~gitbook/mcp"
+    }
+  }
+}
