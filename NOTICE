@@ -18,3 +18,8 @@ de-slop discipline (image/references/de-slop.md), story-arc selection
 duration (image/references/multi-panel.md), the Style DNA + Reject Checklist
 method (image/references/patterns/poster-illustration.md), and named deck styles
 (image/references/slides.md).
+
+The design-philosophy method (image/references/design-philosophy.md) was
+adapted — rewritten, not copied — after studying the canvas-design and
+theme-factory skills in https://github.com/ComposioHQ/awesome-claude-skills
+(Apache License 2.0).
