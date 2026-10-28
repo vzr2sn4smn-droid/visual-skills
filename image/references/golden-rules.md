@@ -51,6 +51,19 @@ Any text for rendering goes in quotes:
 - Specify weight: bold, thin, extra bold
 - Specify position: "upper third", "centered"
 
+## 8. Show, Don't Name
+
+The model renders what can be seen. An abstract state ("homesick", "lonely", "hopeful", "nostalgic") gets either ignored or turned into a cliché. Translate it into observable evidence: expression, posture, gesture, placement in the frame, setting, light.
+
+- ❌ "A homesick little dog."
+- ✅ "A small dog sitting in front of a closed wooden gate, ears lowered, tail tucked, gazing down an empty road toward distant houses in late-afternoon light."
+
+One concrete cue per layer is enough — face or body, place, light. Stacking every sad signal at once tips into melodrama. Mood words may stay in the prompt as a summary *after* the evidence, never instead of it.
+
+## 9. Input in Any Language
+
+Users often brief in their own language, in fragments, out of order. Do not translate word by word. Read the whole brief, decide what the picture is, then write the prompt fresh in English in the target model's structure (5-slot for GPT Image, prose for Nano Banana), applying rule 8 to every abstract word. Text meant to appear *in* the image stays in its original language and script, quoted exactly — see [text-rendering.md](text-rendering.md).
+
 ## Prompt Template
 
 ```
@@ -79,6 +92,18 @@ Format: [ASPECT RATIO]
 - **GPT Image 2.5:** прогон на `quality: low` → отбор → переген на `medium` или `high`.
 
 В обоих случаях: дешёвая разведка → дорогой финал.
+
+## Review Before Refining
+
+Before asking for a change, look at the returned image in a fixed order — otherwise the first edit goes to whatever is most annoying, not what matters most.
+
+1. **Two-second read.** What draws the eye first? Is that the hero the brief named? Is the purpose clear without reading the small text?
+2. **Hierarchy.** Is there one reading order (hero → headline → supporting → details)? Is the right thing largest and highest-contrast?
+3. **Consistency.** Palette, type, light direction, and scale match the brief and, in a series, the other images.
+4. **Legibility.** Text readable at the size it will actually be seen (thumbnail, phone, slide at the back of the room), with enough contrast against what is behind it.
+5. **Fidelity.** Rendered text matches the quoted text letter for letter; no invented logos, numbers, or facts; supplied faces and products unchanged.
+
+Rate each finding 🔴 blocks use / 🟡 weakens it / 🟢 polish, note one thing that works and must be preserved, then fix 🔴 first, **one edit per iteration** (rule 3). If a 🔴 comes from the composition itself rather than a detail, re-prompt instead of patching. For a strong named style, add its Reject Checklist from [patterns/poster-illustration.md](patterns/poster-illustration.md).
 
 ## Conversational Refinement
 

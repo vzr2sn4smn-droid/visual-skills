@@ -47,7 +47,7 @@ The model file is non-negotiable. Skipping it is the single biggest cause of wea
 
 ### Step 3 — always read after the model file → [golden-rules.md](references/golden-rules.md)
 
-Universal rules that apply to both models: start with a verb, positive framing, hex colors, quote text, edit don't re-roll, one change per iteration, reference images.
+Universal rules that apply to both models: start with a verb, positive framing, hex colors, quote text, show don't name (abstract feelings become visible cues), briefs in any language rewritten into English, a fixed review order before refining, edit don't re-roll, one change per iteration, reference images.
 
 ### Step 4 — task-shaped reading (load only what matches the request)
 
