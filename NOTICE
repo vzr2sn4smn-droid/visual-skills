@@ -18,3 +18,15 @@ de-slop discipline (image/references/de-slop.md), story-arc selection
 duration (image/references/multi-panel.md), the Style DNA + Reject Checklist
 method (image/references/patterns/poster-illustration.md), and named deck styles
 (image/references/slides.md).
+
+The design-philosophy method (image/references/design-philosophy.md) was
+adapted — rewritten, not copied — after studying the canvas-design and
+theme-factory skills in https://github.com/ComposioHQ/awesome-claude-skills
+(Apache License 2.0).
+
+In image/references/golden-rules.md, "Review Before Refining" was adapted
+after the design-critique skill in
+https://github.com/anthropics/knowledge-work-plugins (Apache License 2.0),
+and rules 8-9 ("Show, Don't Name", "Input in Any Language") after the
+Midjourney prompt in https://github.com/PlexPt/awesome-chatgpt-prompts-zh
+(MIT License, Copyright (c) 2025 plex). Both rewritten, not copied.

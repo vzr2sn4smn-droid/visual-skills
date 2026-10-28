@@ -47,7 +47,7 @@ The model file is non-negotiable. Skipping it is the single biggest cause of wea
 
 ### Step 3 — always read after the model file → [golden-rules.md](references/golden-rules.md)
 
-Universal rules that apply to both models: start with a verb, positive framing, hex colors, quote text, edit don't re-roll, one change per iteration, reference images.
+Universal rules that apply to both models: start with a verb, positive framing, hex colors, quote text, show don't name (abstract feelings become visible cues), briefs in any language rewritten into English, a fixed review order before refining, edit don't re-roll, one change per iteration, reference images.
 
 ### Step 4 — task-shaped reading (load only what matches the request)
 
@@ -57,6 +57,7 @@ Pick zero or more, depending on what the user asked for:
 - Edit existing image (object removal, lighting swap, colorization, restoration, localization) → [editing.md](references/editing.md)
 - Character continuity across multiple images / panels → [characters.md](references/characters.md)
 - **The image must pass as a real photograph** (portrait, reportage, UGC, casting, product-in-hand) — or the user says the result "looks AI", "too glossy", "not like the reference" → [de-slop.md](references/de-slop.md). Model default priors, banned booster words, capture pipeline instead of adjectives, located imperfections.
+- **Art object, not a depicted scene** (abstract or conceptual poster, gallery print, cover with an open brief, "something beautiful about X") — or a series that must share one visual identity → [design-philosophy.md](references/design-philosophy.md). Name a movement first, hide the topic in the structure, state craft as concrete properties, refine instead of adding, and lock a series with one theme card.
 - Presentation slides → [slides.md](references/slides.md)
 - Sequential narrative (storyboard, comic, panel sequence) → [storyboards.md](references/storyboards.md)
 - Sketch → final, wireframes, structural input → [structural.md](references/structural.md)
